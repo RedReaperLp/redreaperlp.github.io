@@ -1,0 +1,272 @@
+body {
+    background: url("images/Background.png") no-repeat center center fixed;
+    background-size: cover;
+}
+* {
+    box-sizing: border-box;
+}
+
+.MenuBand {
+    display: flex;
+    background: rgba(0, 0, 0, 0.18);
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.subTitle {
+    position: relative;
+    font-size: 30px;
+    width: auto;
+    height: auto;
+    color: red;
+    top: 10px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    transition: color 0.5s;
+}
+
+.SubButton {
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: max-content;
+    background: linear-gradient(to bottom left, rgba(0, 255, 187, 0.28) 0%, rgba(0, 255, 4, 0.22) 100%);
+    transition: 0.4s;
+}
+
+.SubButton:hover{
+    transform: scale(1.1);
+    background: linear-gradient(to bottom left, rgba(0, 255, 187, 0.92) 0%, rgba(0, 255, 4, 0.92) 100%);
+    color: black;
+}
+
+.SubButton:active{
+    transform: scale(0.9);
+    background: linear-gradient(to bottom left, rgba(255, 0, 0, 0.57) 0%, rgba(0, 255, 4, 0.49) 100%);
+    color: black;
+}
+
+.MenuBand::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.Plugins{
+    background: linear-gradient(to bottom left, rgba(15, 16, 16, 0.5) 0%, rgba(9, 47, 10, 0.49) 100%);
+    width: max-content;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    height: max-content;
+    border-radius: 20px;
+}
+
+.Plugins #PluginsTitle {
+    font-size: 30px;
+    color: orange;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    position: relative;
+    left: 10px;
+}
+.PluginsBut{
+    display: flex;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: max-content;
+    background: linear-gradient(to bottom left, rgba(0, 255, 187, 0.28) 0%, rgba(0, 255, 4, 0.22) 100%);
+    transition: 0.4s;
+}
+
+
+
+.PluginsBut:hover{
+    transform: scale(1.1);
+    background: linear-gradient(to bottom left, rgba(0, 255, 187, 0.92) 0%, rgba(0, 255, 4, 0.92) 100%);
+    color: black;
+}
+
+.PluginsBut:active{
+    transform: scale(0.9);
+    background: linear-gradient(to bottom left, rgba(238, 255, 0, 0.32) 0%, rgba(0, 255, 217, 0.34) 100%);
+    color: black;
+}
+
+.Plugins1All{
+    display: flex;
+    justify-content: left;
+    position: relative;
+    left: 40px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.Plugins2All{
+    display: flex;
+    justify-content: left;
+    position: relative;
+    left: 40px;
+    margin-bottom: 10px;
+}
+
+.PluginDesc{
+    display: flex;
+    position: relative;
+    font-size: 15px;
+    color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding-right: 60px;
+}
+
+#Plugin1Desc{
+    top: 17px;
+    left: 20px;
+}
+
+#Plugin2Desc{
+    top: 25px;
+    left: 20px;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .col-s-1 {
+        width: 5%;
+    }
+    .col-s-2 {
+        width: 10%;
+    }
+    .col-s-3 {
+        width: 15%;
+    }
+    .col-s-4 {
+        width: 20%;
+    }
+    .col-s-5 {
+        width: 25%;
+    }
+    .col-s-6 {
+        width: 30%;
+    }
+    .col-s-7 {
+        width: 35%;
+    }
+    .col-s-8 {
+        width: 40%;
+    }
+    .col-s-9 {
+        width: 45%;
+    }
+    .col-s-10 {
+        width: 50%;
+    }
+    .col-s-11 {
+        width: 55%;
+    }
+    .col-s-12 {
+        width: 60%;
+    }
+    .col-s-13 {
+        width: 65%;
+    }
+    .col-s-14 {
+        width: 70%;
+    }
+    .col-s-15 {
+        width: 75%;
+    }
+    .col-s-16 {
+        width: 80%;
+    }
+    .col-s-17 {
+        width: 85%;
+    }
+    .col-s-18 {
+        width: 90%;
+    }
+    .col-s-19 {
+        width: 95%;
+    }
+    .col-s-20 {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .col-1 {
+        width: 5%;
+    }
+    .col-2 {
+        width: 10%;
+    }
+    .col-3 {
+        width: 15%;
+    }
+    .col-4 {
+        width: 20%;
+    }
+    .col-5 {
+        width: 25%;
+    }
+    .col-6 {
+        width: 30%;
+    }
+    .col-7 {
+        width: 35%;
+    }
+    .col-8 {
+        width: 40%;
+    }
+    .col-9 {
+        width: 45%;
+    }
+    .col-10 {
+        width: 50%;
+    }
+    .col-11 {
+        width: 55%;
+    }
+    .col-12 {
+        width: 60%;
+    }
+    .col-13 {
+        width: 65%;
+    }
+    .col-14 {
+        width: 70%;
+    }
+    .col-15 {
+        width: 75%;
+    }
+    .col-16 {
+        width: 80%;
+    }
+    .col-17 {
+        width: 85%;
+    }
+    .col-18 {
+        width: 90%;
+    }
+    .col-19 {
+        width: 95%;
+    }
+    .col-20 {
+        width: 100%;
+    }
+
+}
+
