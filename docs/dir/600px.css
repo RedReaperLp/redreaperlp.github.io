@@ -1,5 +1,9 @@
 @media screen and (max-width: 600px) {
 
+    .MenuBand{
+        width: unset;
+    }
+
     .MenuBandContent {
         flex-direction: column;
         align-items: center;
@@ -33,6 +37,8 @@
     .SiteContent {
         flex-direction: column;
         align-items: center;
+        position: relative;
+        right: 90px;
     }
 
     .Plugins {
@@ -43,32 +49,32 @@
 
     #PluginsTitle {
         position: relative;
-        font-size: 12px;
+        font-size: 20px;
     }
 
     .Plugins1All{
-        font-size: 8px;
+        font-size: 12px;
     }
 
     .Plugins2All {
-        font-size: 8px;
+        font-size: 12px;
         position: relative;
     }
 
     .PluginsBut {
-        font-size: 8px;
+        font-size: 12px;
     }
 
     #Plugin1 {
         position: relative;
         bottom: 10px;
-        right: 20px;
+        right: 35px;
     }
 
     #Plugin2 {
         position: relative;
         bottom: 10px;
-        right: 20px;
+        right: 40px;
     }
 
     .Plugins1All > #Plugin1Desc{
@@ -89,10 +95,10 @@
 
     .Mods {
         height: max-content;
-        width: 200px;
+        width: 240px;
         position: relative;
         top: 50px;
-        left: -30px;
+        left: -10px;
     }
 
     #ModsTitle {
@@ -100,11 +106,11 @@
     }
 
     .Mod1All{
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .ModBut {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     #Mod1 {
@@ -116,7 +122,7 @@
     .Mod1All > #Mod1Desc{
         color: white;
         position: relative;
-        right: 40px;
+        right: 30px;
         top: 0;
     }
 }
