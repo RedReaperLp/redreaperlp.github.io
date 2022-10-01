@@ -1,68 +1,59 @@
-@media screen and (max-width: 600px) {
-
+@media screen and (min-width: 1800px) {
     .MenuBandContent {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        justify-content: space-around;
     }
 
     .MenuBand .subTitle {
-        font-size: 20px;
+        font-size: 200px;
     }
 
     .MenuBandContent .MenuBandBut {
         transition: 0.4s;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         width: max-content;
-        padding: 10px;
-        font-size: 80%;
-    }
-
-    .MenuBandContent #ModBut{
-        margin-bottom: 10px;
+        border-radius: 80px;
+        font-size: 100px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 
     .Discord {
+        position: relative;
         transition: 0.4s;
-        background-size: 150px;
-        height: 20px;
-        width: 110px;
+        background-size: 720px;
+        top: 0px;
+        height: 160px;
+        width: 520px;
         cursor: url(images/Discord.png), not-allowed;
     }
 
-    .SiteContent {
-        flex-direction: column;
-        align-items: center;
-    }
+
 
     .Plugins {
         height: max-content;
-        width: 300px;
-        margin-right: 4px;
+        width: 800px;
     }
 
     #PluginsTitle {
-        position: relative;
-        font-size: 12px;
+        font-size: 80px;
+        margin-bottom: 40px;
     }
 
     .Plugins1All{
-        font-size: 8px;
+        font-size: 40px;
     }
 
     .Plugins2All {
-        font-size: 8px;
-        position: relative;
+        font-size: 40px;
     }
 
     .PluginsBut {
-        font-size: 8px;
+        font-size: 40px;
     }
 
     #Plugin1 {
         position: relative;
-        bottom: 10px;
-        right: 20px;
+        bottom: 20px;
     }
 
     #Plugin2 {
@@ -75,36 +66,33 @@
         color: white;
         position: relative;
         right: 20px;
-        top: 0;
+        top: -10px;
     }
 
     .Plugins2All > #Plugin2Desc{
         color: white;
         position: relative;
-        right: 40px;
-        top: 0;
+        right: 100px;
+        top: 20px;
     }
-
-
 
     .Mods {
         height: max-content;
-        width: 200px;
+        width: 600px;
         position: relative;
-        top: 50px;
-        left: -30px;
+        bottom: 50px;
     }
 
     #ModsTitle {
-        font-size: 20px;
+        font-size: 80px;
     }
 
     .Mod1All{
-        font-size: 10px;
+        font-size: 40px;
     }
 
     .ModBut {
-        font-size: 10px;
+        font-size: 40px;
     }
 
     #Mod1 {

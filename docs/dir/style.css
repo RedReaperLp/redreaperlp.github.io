@@ -1,5 +1,5 @@
-html{
-    scroll-behavior: smooth ;
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -10,7 +10,6 @@ body {
 }
 
 
-
 .MenuBand {
     display: flex;
     flex-direction: column;
@@ -19,11 +18,12 @@ body {
 }
 
 .MenuBand .subTitle {
-    font-size: 40px;
+    font-size: 60px;
     color: orange;
     font-family: "Times New Roman", Times, serif;
     text-align: center;
     margin-bottom: 20px;
+    transition: 0.4s;
 }
 
 .MenuBandContent > .MenuBandBut {
@@ -32,7 +32,7 @@ body {
     color: white;
     padding: 20px;
     border-radius: 40px;
-    font-size: 40px;
+    font-size: 25px;
     transition: 0.4s;
 }
 
@@ -56,8 +56,9 @@ body {
     transition: 0.5s;
 }
 
-.Minecraft{
-    cursor: url(images/Minecraft.png), pointer;);
+.Minecraft {
+    cursor: url(images/Minecraft.png), pointer;
+);
 }
 
 .Discord {
@@ -83,3 +84,178 @@ body {
     flex-direction: row;
     justify-content: space-around;
 }
+
+.SiteContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin-top: 20px;
+}
+
+.Plugins {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    left: 30px;
+    top: 30px;
+    font-size: 35px;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 100px;
+    height: 200px;
+    width: 400px;
+}
+
+
+#PluginsTitle {
+    font-size: 45px;
+    color: orange;
+    font-family: "Times New Roman", Times, serif;
+    position: relative;
+    left: 20px;
+    transition: 0.4s;
+}
+
+.Plugins1All {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    font-size: 20px;
+    left: 40px;
+    top: 20px;
+}
+
+.Plugins2All {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    font-size: 20px;
+    left: 40px;
+    top: 20px;
+}
+
+.PluginsBut {
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: linear-gradient(to bottom, rgba(25, 246, 0, 0.45) 0%, rgba(0, 255, 187, 0.45) 100%);
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: url("images/Minecraft.png"), pointer;
+    transition: 0.4s;
+}
+
+.PluginsBut:hover {
+    background: linear-gradient(to bottom, rgba(25, 246, 0, 0.78) 0%, rgba(0, 255, 187, 0.79) 100%);
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+    transform: scale(1.1);
+}
+
+.PluginsBut:active {
+    background: linear-gradient(to bottom, rgba(25, 246, 0, 0.78) 0%, rgba(0, 255, 187, 0.79) 100%);
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+    transform: scale(0.9);
+}
+
+
+
+#Plugin2 {
+    position: relative;
+    right: 10px;
+}
+
+
+#Plugin1Desc{
+    color: white;
+    position: relative;
+    right: 20px;
+    top: 5px;
+}
+
+#Plugin2Desc{
+    color: white;
+    position: relative;
+    right: 60px;
+    top: 15px;
+}
+
+
+.Mods {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 35px;
+    background-color: rgba(0, 0, 0, 0.25);
+    left: 40px;
+    bottom: 5px;
+    border-radius: 20px;
+    width: 500px;
+}
+
+#ModsTitle {
+    font-size: 45px;
+    color: orange;
+    font-family: "Times New Roman", Times, serif;
+    position: relative;
+    left: 20px;
+    transition: 0.4s;
+}
+
+.Mod1All {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    font-size: 20px;
+    left: 40px;
+    top: 20px;
+    height: 100px;
+}
+
+.ModBut {
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: linear-gradient(to bottom, rgba(25, 246, 0, 0.45) 0%, rgba(0, 255, 187, 0.45) 100%);
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: url("images/Minecraft.png"), pointer;
+    transition: 0.4s;
+    height: max-content;
+}
+
+.ModBut:hover {
+    background: linear-gradient(to bottom, rgba(25, 246, 0, 0.78) 0%, rgba(0, 255, 187, 0.79) 100%);
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+    transform: scale(1.1);
+}
+
+.ModBut:active {
+    background: linear-gradient(to bottom, rgba(25, 246, 0, 0.78) 0%, rgba(0, 255, 187, 0.79) 100%);
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+    transform: scale(0.9);
+}
+
+#Mod1Desc{
+    color: white;
+    position: relative;
+    right: 120px;
+    top: 5px;
+}
+
+
