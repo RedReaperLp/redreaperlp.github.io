@@ -1,7 +1,7 @@
 @media screen and (max-width: 600px) {
 
     .MenuBand{
-        width: unset;
+        width: auto;
     }
 
     .MenuBandContent {
