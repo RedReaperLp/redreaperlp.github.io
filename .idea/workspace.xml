@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc78a648-6b33-4b04-b6c1-622aa9f323a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/dir/images/Background.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/dir/images/Minecraft.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dir/images/Background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dir/images/Minecraft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dir/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dir/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="dc78a648-6b33-4b04-b6c1-622aa9f323a9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664631004151</updated>
       <workItem from="1664631005546" duration="13070000" />
-      <workItem from="1664808788264" duration="298000" />
+      <workItem from="1664808788264" duration="458000" />
     </task>
     <servers />
   </component>
